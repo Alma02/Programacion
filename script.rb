@@ -1,7 +1,3 @@
-# Abre y lee un fichero
-# Se usa un bloque: el fichero se cierra
-# automáticamente al acabar el bloque.
-
 for i in 1..4  
   File.open('template.html', 'r') do |f1|      	
       File.open("post/entrada#{i}.html", 'w') do |f2|
